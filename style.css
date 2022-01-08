@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#war{
+    display: none;
+}
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 850px) {
+    #mobile{
+        display: none;
+    }
+    #war{
+        display: block;
+    }
+}
+
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+.half-width img{
+    width: 100%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: dimgray;
+}
+section h2, #myBtnContainer{
+    margin:1.7% 5%;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    background-color: #e7e7e7;
+    box-sizing: border-box;
+    padding:12px 0;
+}
+footer p{
+    text-align: center;
+    color: #484848;
+}
+
+.full-width{
+    padding: 30px 20px 50px 20px;
+    box-shadow: 5px 7px 40px grey;
+    border-radius: 7px;
+    margin: 0 5%;
+    height: auto;
+        background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+        border-right: 7px solid;
+
+        border-left: 7px solid;
+    border-image: linear-gradient( 
+180deg, #fff93b, tomato);
+    border-image-slice: 1;
+}
+
+
+.skill-area{
+}
+.skill-area p{
+    font-weight: bold;
+}
+
+/* Container for skill bars */
+.container1 {
+  border-radius: 50px;
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+
+    box-shadow: 5px 7px 20px grey;
+}
+
+.skills {
+    box-sizing: border-box;
+    padding-right: 20px;
+  border-radius: 50px 0 0 50px;
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+
+
+
+
+
+
+.project-area{
+    height: auto;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.projects-container{
+    background-image: url(images/project-banner.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    padding: 30px 20px 50px 20px;
+    box-shadow: 5px 7px 40px grey;
+    border-radius: 7px;
+    margin: 0 5%;
+    height: auto;
+    border-right: 7px solid;
+    border-left: 7px solid;
+    border-image: linear-gradient( 
+    180deg, #fff93b, tomato);
+    border-image-slice: 1;
+}
+
+
+
+
+
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+
+  box-sizing: border-box;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+
+  box-sizing: border-box;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border:none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  box-shadow: 0px 0px 10px gray;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
